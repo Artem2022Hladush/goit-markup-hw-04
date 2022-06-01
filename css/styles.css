@@ -123,6 +123,18 @@ img {
 
 }
 
+.mail:before{
+    content:"";
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-right: 15px;
+    background-image: url(../images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
 
 .site-nav  .current{
     color: var(--accent-color);
@@ -137,11 +149,14 @@ img {
 .call {
  display: flex;
  margin-left: auto;
+ align-items: center;
+ 
 }
 
 .call .item:not(:last-child) {
     margin-right: 50px;
 }
+
 
 .call .link {
     color: var(--primary-text-color);
@@ -149,6 +164,18 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+.mail:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-right: 15px;
+    background-image: url(../images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .call .link:hover,
@@ -355,7 +382,7 @@ img {
 
 
     color: var(--title-text-color);
-    background-color: var(--primary-white-color);
+    background-color: var(--secondary-bg-color);
 
     font-weight: 500;
     font-size: 16px;
