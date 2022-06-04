@@ -208,13 +208,6 @@ img {
     margin-bottom: 30px;
 }
 
-.feautere-list .item::before {
-    display: inline-block;
-    content: "";
-    width: 40px;
-    height: 40px;
-    
-}
 
 .feautere-list .title {
     color: var(--title-text-color);
@@ -274,6 +267,7 @@ img {
     font-size: 16px;
     line-height: 1.16;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 /* button */
